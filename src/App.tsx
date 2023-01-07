@@ -1,13 +1,38 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams,
+} from "react-router-dom";
+
+import { AppStyled, ContentPageStyled } from "./styles/globalStyles";
+import About from "./pages/About";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
+    <AppStyled>
       <Navbar />
-    </div>
+
+      <ContentPageStyled>
+        <Router>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+      </ContentPageStyled>
+      <Footer />
+    </AppStyled>
   );
 }
 

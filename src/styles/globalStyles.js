@@ -1,7 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 import * as palette from "../constants/VariablesStyles";
 
-
 const GlobalStyle = createGlobalStyle`
   *{
     box-sizing: border-box;
@@ -21,6 +20,16 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.6rem;
   }
 
+`;
+
+export const AppStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+`;
+
+export const ContentPageStyled = styled.div`
+  flex: 1;
 `;
 
 export const CSSVariables = styled.div`
