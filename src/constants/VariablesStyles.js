@@ -5,13 +5,15 @@ export const TABLE_BORDER_COLOR = "#edeef2";
 export const ACTIVE_COLOR = "#25be64";
 export const INACTIVE_COLOR = "#dadde4";
 export const NEW_COLOR = "#febf02";
-export const TEXT_COLOR = "#5698DB";
+export const TEXT_COLOR = "#fff";
 export const TABLE_HEAD_BG_COLOR = "#e1e8f2";
 export const HOVER_BG_COLOR = "#F7FAFC";
 export const SELECTED_BG_COLOR = "#5698DB";
 export const HOVER_TEXT_COLOR = "#5698DB";
 export const TEXT_SECONDARY_COLOR = "#171922";
 export const TEXT_THIRD_COLOR = "#FFF";
+
+export const BG_NAVBAR_COLOR = "#414141";
 
 const size = {
   mobileS: "400px",
@@ -28,7 +30,7 @@ export const device = {
 
 export const titleSize = {
   L: "2.4rem",
-  M: "1.4rem",
+  M: "1.6rem",
 };
 
 export const titleLineHeight = {

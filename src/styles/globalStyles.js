@@ -5,22 +5,21 @@ import * as palette from "../constants/VariablesStyles";
 const GlobalStyle = createGlobalStyle`
   *{
     box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
   }
 
 
-html {
-  font-size: 10px;
-}
+  html {
+    font-size: 10px;
+  }
 
-body {
-  min-height: 100vh;
-  color: ${palette.TEXT_COLOR};
-  background-color: ${palette.BG_COLOR};
-  font-size: 1.6rem;
-}
+  body {
+    min-height: 100vh;
+    color: ${palette.TEXT_COLOR};
+    background-color: ${palette.BG_COLOR};
+    font-size: 1.6rem;
+  }
 
 `;
 
