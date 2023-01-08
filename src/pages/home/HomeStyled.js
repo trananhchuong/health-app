@@ -5,6 +5,7 @@ import { Container } from "../../styles/globalStyles";
 export const HomeContainer = styled(Container)`
   display: flex;
   justify-content: start;
+  flex-direction: column;
 
   ${Container}
 `;

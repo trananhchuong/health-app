@@ -14,6 +14,8 @@ export const TEXT_SECONDARY_COLOR = "#171922";
 export const TEXT_THIRD_COLOR = "#FFF";
 
 export const BG_NAVBAR_COLOR = "#414141";
+export const BG_GRADIENT_COLOR =
+  "linear-gradient(155.89deg, #FFCC21 8.26%, #FF963C 91.18%)";
 
 const size = {
   mobileS: "400px",
